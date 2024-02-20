@@ -15,7 +15,7 @@ Rebuild a custom version of Things API demo project from scratch. *completed 02-
 
 ## Features - Docker
 
-*in progress 02-19-2024*
+*completed 02-20-2024 5:00PM EST*
 
 **NOTE** Refer to the class demo for built out Dockerfile and docker-compose.yml examples.
 
@@ -32,16 +32,21 @@ front-end application (when applicable)
 
   .venv
 
-Initialize/run your application 
+  PORT - 8000
+  
+  DATABASE_URL- http://localhost:8000/api/v1/plants/
+
+
+Initialize/run your application
 
   python manage.py runserver
 
-How to use your library 
+How to use your library
 
   pip install -r requirements.txt
 
 ## Tests
 
-How do you run tests?
-Any tests of note?
-Describe any tests that you did not complete, skipped, etc
+How to run tests
+
+  python manage.py tests
