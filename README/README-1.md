@@ -6,6 +6,8 @@ Author: Andrea Riley(Thiel)
 
 ## Feature Tasks and Requirements
 
+### Django REST Framework
+
 Rebuild a custom version of Things API demo project from scratch. *completed 02-19-2024 10:00PM EST*
 
 - Replace things_project and Thing with your own application and model.
@@ -13,7 +15,7 @@ Rebuild a custom version of Things API demo project from scratch. *completed 02-
 - Your model must have one field that is a foreign key to user.
 - **NOTE:** You are not required to build any templates for this lab.
 
-## Features - Docker
+### Docker
 
 *completed 02-20-2024 5:00PM EST*
 
@@ -33,8 +35,8 @@ front-end application (when applicable)
   .venv
 
   PORT - 8000
-  
-  DATABASE_URL- http://localhost:8000/api/v1/plants/
+
+  DATABASE_URL- /api/v1/plants/
 
 
 Initialize/run your application
