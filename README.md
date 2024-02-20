@@ -28,18 +28,17 @@ front-end application (when applicable)
 
 ## Setup
 
-.env requirements (where applicable)
+.env requirements
 
-.venv
+  .venv
 
-PORT - Port Number
-DATABASE_URL - URL to the running Postgres instance/db
+Initialize/run your application 
 
-Initialize/run your application (where applicable)
+  python manage.py runserver
 
-e.g. python main.py
+How to use your library 
 
-How to use your library (where applicable)
+  pip install -r requirements.txt
 
 ## Tests
 
