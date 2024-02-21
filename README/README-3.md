@@ -55,3 +55,6 @@ How to use your library
 
 How to test manually:
 
+To get token using httpie
+
+http POST :8000/api/token/ username=Andrea password=admin
