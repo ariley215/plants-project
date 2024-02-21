@@ -8,6 +8,8 @@ Author: Andrea Riley(Thiel)
 
 ### Django REST Framework
 
+*completed 02-20-2024 6:00PM EST*
+
 - Adjust project’s permissions so that only authenticated user’s have access to API.
 - Add a custom permission so that only appropriate users can update or delete it.
   - Exactly what this means will depend on your application, so if you have any questions about “appropriate users” means reach out to TA/Instructor.
@@ -15,6 +17,7 @@ Author: Andrea Riley(Thiel)
 
 ### Docker
 
+*completed 02-20-2024 7:30PM EST*
 **NOTE** Refer to demo for built out Dockerfile and docker-compose.yml examples.
 
 - create Dockerfile based off python:3.10-slim
@@ -26,8 +29,7 @@ Author: Andrea Riley(Thiel)
 
 ## Links and Resources
 
-back-end server url (when applicable)
-front-end application (when applicable)
+http://0.0.0.0:8000/api/v1/plants/
 
 ## Setup
 
