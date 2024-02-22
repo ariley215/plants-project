@@ -16,6 +16,8 @@ Keep any pre-existing authentication so DRF Browsable API still usable.
 
 - Install needed libraries in project configuration and/or site settings.
 
+*completed 02-21-2024 5:30PM EST*
+
 ### Docker
 
 Switch to using Gunicorn instead of Django’s built in development server.
@@ -26,6 +28,7 @@ Switch to using Gunicorn instead of Django’s built in development server.
 
 - On Django side you’ll need to properly handle static files using Whitenoise
 
+*completed 02-21-2024 6:00PM EST*
 
 ## Links and Resources
 
