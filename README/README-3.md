@@ -55,6 +55,10 @@ How to use your library
 
 How to test manually:
 
-To get token using httpie
+create super user: docker compose run web python manage.py createsuperuser
 
-http POST :8000/api/token/ username=Andrea password=admin
+Use new superuser to get token using httpie:
+
+http POST :8000/api/token/ username=superusername password=superuserpassword
+
+Using Thunder Client, add refresh token in Auth bearer at the api url to perform CRUD
