@@ -45,6 +45,8 @@ Initialize/run your application
 
   python manage.py runserver
 
+  docker compose up
+
 How to use your library
 
   pip install -r requirements.txt
